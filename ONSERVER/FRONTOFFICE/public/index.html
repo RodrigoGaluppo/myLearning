@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    
+    <base href="%PUBLIC_URL%/" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#323232" />
+    
+    <meta name="author" content="RussoCode - Rodrigo Russo" />
+    <meta name="description" content="a modern platform for learning" />
+    <meta name="keywords" content="learn online courses" />
+    <meta name="robots" content="index,follow" />
+    
+    <meta property="og:title" content="MyLearning - a learing platform">
+    <meta property="og:site_name" content="MyLearning">
+    <meta property="og:description" content="a modern platform for learning">
+    <meta property="og:url" content="%PUBLIC_URL%">
+    <meta property="og:image" content="%PUBLIC_URL%/Images/Icon192.png">
+    <meta property="og:image:type" content="image/png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="transluscent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="MyLearning"> 
+
+    <!--Iphone 6/7/8 -->
+    <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/Images/Icon76.png">
+
+    <!--Iphone 6/7/8 plus -->
+    <link rel="apple-touch-icon" sizes="167x167" href="%PUBLIC_URL%/Images/Icon167.png">
+
+    <!--Android High Resolution -->
+    <link rel="icon" sizes="192x192" href="%PUBLIC_URL%/Images/Icon192.png">
+
+    <!--Android low reasolution -->
+    <link rel="icon" sizes="128x128" href="%PUBLIC_URL%/Images/Icon128.png">
+
+    <!-- splash screen ios-->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="%PUBLIC_URL%/Images/Icon512.png">
+
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="%PUBLIC_URL%/Images/Icon512.png">
+    <!-- iPhone 8, 7, 6s, 6 (750px x 1334px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="%PUBLIC_URL%/Images/Icon512.png">
+    <!-- iPhone 8 Plus, 7 Plus, 6s Plus, 6 Plus (1242px x 2208px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" href="%PUBLIC_URL%/Images/Icon512.png">
+    <!-- iPhone 5 (640px x 1136px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="%PUBLIC_URL%/Images/Icon512.png">
+    <!-- iPad Mini, Air (1536px x 2048px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" href="%PUBLIC_URL%/Images/Icon512.png">
+    <!-- iPad Pro 10.5" (1668px x 2224px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" href="%PUBLIC_URL%/Images/Icon512.png">
+    <!-- iPad Pro 12.9" (2048px x 2732px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" href="%PUBLIC_URL%/Images/Icon512.png">
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <title>MyLearning</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  </head>
+  <body >
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+  </body>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
+    }
+  </script>
+  
+  
+</html>

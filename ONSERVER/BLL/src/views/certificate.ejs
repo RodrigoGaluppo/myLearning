@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Certificate of Completion</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+
+    <style>
+        /* Custom Styles */
+        body {
+            background-color: #343a40;
+            color: #000;
+            font-family: sans-serif;
+        }
+
+        .certificate {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            margin: 50px auto;
+            max-width: 700px;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #c7254e;
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            text-align: justify;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="certificate">     
+            <h1>Certificate of Completion</h1> 
+            <p >
+                This document certifies that <strong><%= user %></strong> has successfully completed the course <strong><%= course %></strong> on <strong><%= date %></strong>.
+            </p>
+            <p>We recommend you for your hard work and dedication in completing this course, and wish you all the best in your future endeavors.</p>
+            <p>Sincerely,</p>
+            <p>MyLearning Team</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

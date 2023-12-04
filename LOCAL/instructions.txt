@@ -1,0 +1,49 @@
+Esse é o manual de execução local do projeto
+O projeto foi realizado no sistema operativo linux com isso é recomendado a sua aplicação em um ambiente linux, porém todas as suas tecnplogias são cross platform, sendo assim também pode ser executado em um ambiente Windows ou mesmo Mac.
+
+Ele está dividido em 5 pastas principais: 
+
+	BACKOFFICE e FRONTOFICE são as aplicações React da camada FRONTEND
+
+	BLL é a aplicação nodejs da camada BLL
+
+	DAL é a aplicação dotnet core da camada DAL
+
+	DBINSTRUCTIONS é a pasta com script e informação para a execução da base de dados
+
+Para a execução do projeto localmente é necessario instalar:
+
+	NodeJS v19
+	dotnet core v6
+	docker engine v24
+	Visual Studio code v1.80.0
+	Dbeaver 
+	
+	
+Primeiro de tudo é necessario executar o comando:
+	docker run --name postgresql -e POSTGRES_PASSWORD=Admin5103 -d postgres:14-alpine
+	
+Depois disso entre no dbeaver e conecte na database com o utilizador e password escolhido
+Depois abra o script de inicialização da database e execute-o na database conectada
+
+De seguida entre na pasta DAL e execute o comando
+	dotnet watch
+
+Depois entre na pasta BLL e execute os seguinte comandos
+	npm 
+	npm run dev
+	
+Depois entre na pasta backoffice e execute
+	npm 
+	npm start
+	
+Depois entre na pasta frontoffice e execute
+	npm 
+	npm start
+	
+	
+Com isso o projeto estará correndo normalmente, mas sem nenhum registo. o único registo por default é o utilizador admin root com as credenciais 
+	email: admin@mylearning.com
+	senha: Senha
+	
+É recomendado depois trocar este utilizador por outro

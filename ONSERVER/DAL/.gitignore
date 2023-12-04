@@ -1,0 +1,92 @@
+# .NET Core
+bin/
+obj/
+*.userprefs
+*.suo
+*.cache
+*.tmp
+*.log
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+AnyCPU/
+*.exe
+*.pdb
+*.dll
+*.exe.config
+*.dll.config
+
+# Visual Studio files
+.vs/
+*.vscode/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nuget/
+packages/
+*.nupkg
+*.snupkg
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Test Files
+*.testsettings
+*.vsmdi
+*.testhost.exe
+*.testlog
+*.trx
+*.tlg
+
+# Publishing
+_PublishedWebsites/
+PublishProfiles/
+*.pubxml
+*.publishproj
+
+# Azure
+*.cscfg
+*.csdef
+*.cspkg
+*.pubxml
+*.publishsettings
+*.diagnostics.preview.json
+
+# StyleCop
+StyleCopReport.xml
+
+# Resharper
+_ReSharper*/
+*.ReSharper*
+*.DotSettings.user
+
+# Others
+[Tt]humbs.db
+*.bak
+*.backup
+*.cache
+*.ClassDiagram.*
+*.docstates
+*.dotCover
+*.swp
+*~.nupkg
+*.bak.*
+*.vssettings
+npm-debug.log*
+
+*appsettings*
+*docker*
+*Docker*
+*nginx*

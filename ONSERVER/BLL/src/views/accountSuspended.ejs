@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Account suspended!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #1A202C;;
+      font-family: Arial, sans-serif;
+      color: #ED64A6;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: #ED64A6;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .footer {
+      background-color: #ED64A6;
+      padding: 10px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 14px;
+    }
+
+    .logo {
+      color: #ED64A6;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .content {
+      padding: 20px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #ED64A6;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1 style="color: white;"  class="logo">my<span>Learning</span></h1>
+  </div>
+
+  <div class="container">
+    <div class="content">
+      <h2>Hey There!</h2>
+      <p>Dear <%= name %>,</p>
+      <p>we are sorry to say that your account has been suspended</p>
+      <p>you can and should contact our support to solve this issue:</p>
+      
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2023 myLearning. All rights reserved.</p>
+  </div>
+</body>
+
+</html>

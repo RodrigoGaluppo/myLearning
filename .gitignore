@@ -1,0 +1,155 @@
+# LOCAL
+#BACKOFFICE
+# dependencies
+/LOCAL/BACKOFFICE/node_modules
+/LOCAL/BACKOFFICE/.pnp
+/LOCAL/BACKOFFICE/.pnp.js
+
+
+/LOCAL/BACKOFFICE/todo.txt
+
+# testing
+/LOCAL/BACKOFFICE/coverage
+
+# production
+/LOCAL/BACKOFFICE/build
+
+# misc
+/LOCAL/BACKOFFICE/.DS_Store
+/LOCAL/BACKOFFICE/.env.local
+/LOCAL/BACKOFFICE/.env.development.local
+/LOCAL/BACKOFFICE/.env.test.local
+/LOCAL/BACKOFFICE/.env.production.local
+
+/LOCAL/BACKOFFICE/npm-debug.log*
+/LOCAL/BACKOFFICE/yarn-debug.log*
+/LOCAL/BACKOFFICE/yarn-error.log*
+
+#FRONTOFFICE
+
+/LOCAL/FRONTOFFICE/node_modules
+/LOCAL/FRONTOFFICE/.pnp
+/LOCAL/FRONTOFFICE/.pnp.js
+
+
+/LOCAL/FRONTOFFICE/todo.txt
+
+# testing
+/LOCAL/FRONTOFFICE/coverage
+
+# production
+/LOCAL/FRONTOFFICE/build
+
+# misc
+/LOCAL/FRONTOFFICE/.DS_Store
+/LOCAL/FRONTOFFICE/.env.local
+/LOCAL/FRONTOFFICE/.env.development.local
+/LOCAL/FRONTOFFICE/.env.test.local
+/LOCAL/FRONTOFFICE/.env.production.local
+
+/LOCAL/FRONTOFFICE/npm-debug.log*
+/LOCAL/FRONTOFFICE/yarn-debug.log*
+/LOCAL/FRONTOFFICE/yarn-error.log*
+
+#BLL
+/LOCAL/BLL/src/.env
+*node_modules*
+*/dist/*
+
+
+
+*.env*
+
+#DALL
+# .NET Core
+bin/
+obj/
+*.userprefs
+*.suo
+*.cache
+*.tmp
+*.log
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+AnyCPU/
+*.exe
+*.pdb
+*.dll
+*.exe.config
+*.dll.config
+
+# Visual Studio files
+.vs/
+*.vscode/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nuget/
+packages/
+*.nupkg
+*.snupkg
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Test Files
+*.testsettings
+*.vsmdi
+*.testhost.exe
+*.testlog
+*.trx
+*.tlg
+
+# Publishing
+_PublishedWebsites/
+PublishProfiles/
+*.pubxml
+*.publishproj
+
+# Azure
+*.cscfg
+*.csdef
+*.cspkg
+*.pubxml
+*.publishsettings
+*.diagnostics.preview.json
+
+# StyleCop
+StyleCopReport.xml
+
+# Resharper
+_ReSharper*/
+*.ReSharper*
+*.DotSettings.user
+
+# Others
+[Tt]humbs.db
+*.bak
+*.backup
+*.cache
+*.ClassDiagram.*
+*.docstates
+*.dotCover
+*.swp
+*~.nupkg
+*.bak.*
+*.vssettings
+npm-debug.log*
+
+*appsettings*
+*docker*
+*Docker*
+*nginx*

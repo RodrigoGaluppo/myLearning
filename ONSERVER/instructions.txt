@@ -1,0 +1,10 @@
+Esse é o manual de teste do projeto em produção
+
+O projeto foi publicado principalemnete em dois provedores de cloud o Vercel e o Azure, sendo que o frontend esta no Vercel e o Backend no Azure. Para orientação siga o diagrama anexado na raiz do projeto com a sua estrutura em producao.
+
+Para acessar a aplicação web frontOffice
+https://mylearning-ten.vercel.app/
+
+Para acessar a aplicação web BackOffice
+https://my-learning-front-end-back-office.vercel.app/
+
